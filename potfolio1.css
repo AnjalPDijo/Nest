@@ -1,0 +1,35 @@
+/* html,body{
+        background: url(./images/bg_image.png);
+        background-repeat: no-repeat;
+        background-size: 1920px 1080 px;
+      } */
+      html,body
+      {
+            background-image: url("./images/bg_image.png"); /* The image used */
+            background-color: #ffffff; /* Used if the image is unavailable */
+            height: auto; /* You must set a specified height */
+            /*width: 1920px;*/
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            /*background-size: cover; */ 
+          }
+      #parent{
+          display:flex;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      p1 {
+          text-align: left;
+        }
+      
+      .t1{
+          /*display: flex;*/
+          /*background-color:blue;*/
+          color: aqua
+          margin:100px;
+      }
+      .s1{
+          display: flex;
+          align items: center;
+          justify content : space evenly;
+      }
