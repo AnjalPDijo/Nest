@@ -3,21 +3,24 @@
         background-repeat: no-repeat;
         background-size: 1920px 1080 px;
       } */
-      html,body
+      body
       {
-            background-image: url("./images/bg_image.png"); /* The image used */
-            background-color: #ffffff; /* Used if the image is unavailable */
+           background-image: url("././5543.jpg");
+         /* background-image: url("./8150248.jpg");*/
+            /* background-color: #55c85982; */
             height: auto; /* You must set a specified height */
             /*width: 1920px;*/
             background-position: center; /* Center the image */
             background-repeat: no-repeat; /* Do not repeat the image */
-            /*background-size: cover; */ 
+            background-size: cover no repeat
           }
       #parent{
           display:flex;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
-      
+      .s1{
+        margin-top: 150px;
+      }
       p1 {
           text-align: left;
         }
@@ -26,10 +29,31 @@
           /*display: flex;*/
           /*background-color:blue;*/
           color: aqua
-          margin:100px;
+          margin-left;
       }
+
+      .t2{
+        /*display: flex;*/
+        /*background-color:blue;*/
+        margin-left;
+    }
+
+    .t3{
+      /*display: flex;*/
+      /*background-color:blue;*/
+      margin-left;
+  }
+  .t3{
+    /*display: flex;*/
+    /*background-color:blue;*/
+    margin-center;
+}
       .s1{
           display: flex;
           align items: center;
           justify content : space evenly;
       }
+     .pic{
+      display: flex;
+      margin-bottom: 50px;
+    } 
